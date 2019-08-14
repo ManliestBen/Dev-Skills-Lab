@@ -16,6 +16,6 @@ const skills = [
   }
 
   function getOne(id) {
-    return skill[id];
+    return skills[id];
   }
 
