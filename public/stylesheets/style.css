@@ -8,7 +8,8 @@ body {
 }
 
 a {
-  color: rgb(0, 4, 255);
+  color: rgb(245, 228, 0);
+  font-weight: bold;
 }
 
 .delete-form {
