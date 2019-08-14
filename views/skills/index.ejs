@@ -9,13 +9,13 @@
 <body>
         <h1>Developer Skills</h1>
     <ul>
-      <% skills.forEach(function(t) { %>
-        <li>
-          <%= t.skills %>
-            - 
-          <%= t.learned ? 'learned' : 'not learned' %>
-        </li>
-      <% }); %>
+    <% skills.forEach(function(t, idx) { %>
+      <li>
+        <a href="/skills/<%= idx %>"><%= t.skill %></a>
+          - 
+        <%= t.learned ? 'learned' : 'not learned' %>
+      </li>
+    <% }); %>
     </ul>
 </body>
 </html>
